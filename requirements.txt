@@ -1,0 +1,13 @@
+streamlit==0.85.1
+pandas==1.2.3
+gensim==3.8.3
+pyLDAvis==3.3.1
+matplotlib==3.3.2
+nltk==3.5
+docx2txt==0.8
+pdfplumber==0.5.28
+pillow==8.0.1
+PyPDF2==1.26.0
+python-dateutil==2.8.1
+regex==2020.10.15
+imageio==2.9.0
