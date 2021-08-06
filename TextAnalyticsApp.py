@@ -27,6 +27,12 @@ import pickle
 import pyLDAvis.gensim_models
 import matplotlib.pyplot as plt
 
+#Sentiment package
+import nltk
+nltk.data.path.append("C:\\Users\\kavitha.a\\sample files\\nltk_data")
+from nltk.corpus import stopwords
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
 # Load Images
 @st.cache
 def load_image(image_file):
@@ -132,10 +138,6 @@ def preprocess_text(text):
 def my_widget(key):
         clicked = st.button("Click me " + key)
 
-#Sentiment package
-import nltk
-from nltk.corpus import stopwords
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 def main():
     #st.title("Sentiment Analyzer")
