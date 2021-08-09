@@ -10,3 +10,9 @@ PyPDF2==1.26.0
 python-dateutil==2.8.1
 regex==2020.10.15
 imageio==2.9.0
+Flask==0.11.1
+passlib==1.7.0
+SQLAlchemy==1.1.5
+Werkzeug==0.11.15
+gunicorn==19.0.0
+gevent==1.2.1
