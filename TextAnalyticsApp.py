@@ -41,8 +41,8 @@ else:
 
 #nltk.download()
 #nltk.data.path.append("C:\\Users\\kavitha.a\\sample files\\nltk_data")
-nltk.download('stopwords')
-nltk.download('vader_lexicon')
+#nltk.download('stopwords')
+#nltk.download('vader_lexicon')
 #from nltk.corpus import stopwords
 #from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
