@@ -30,6 +30,7 @@ import matplotlib.pyplot as plt
 #Sentiment package
 import nltk
 #import nltkmodules
+nltk.data.path.append("C:\\Users\\kavitha.a\\sample files\\nltk_data")
 import ssl
 
 try:
@@ -40,7 +41,7 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 
 #nltk.download()
-#nltk.data.path.append("C:\\Users\\kavitha.a\\sample files\\nltk_data")
+
 #nltk.download('stopwords')
 #nltk.download('vader_lexicon')
 #from nltk.corpus import stopwords
