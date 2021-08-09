@@ -29,6 +29,17 @@ import matplotlib.pyplot as plt
 
 #Sentiment package
 import nltk
+#import nltkmodules
+import ssl
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
+#nltk.download()
 #nltk.data.path.append("C:\\Users\\kavitha.a\\sample files\\nltk_data")
 nltk.download('stopwords')
 nltk.download('vader_lexicon')
